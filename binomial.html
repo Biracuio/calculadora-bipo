@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Calculadora Binomial</title>
+</head>
+<body>
+    <h2 class="titulo" >Calculadora para distribuições Binomiais</h2>
+    <p class="pergunta">Qual a porcentagem de sucesso para uma tentativa única? (Moeda = 50%, Dado = 16,67%)</i></p>
+    <input class="resposta" type="number" value=" " id="PosUnica"> %<br>
+    <p class="pergunta">Quantas tentativas serão no total?</p>
+    <input class="resposta" type="number" value=" " id="NumTentativas"> tentativas<br>
+    <p class="pergunta">Você deseja calcular a probabilidade de adquirir quantos sucessos? ( x )</p>
+    <p class="pergunta">Preencha apenas a primeira caso não queira um intervalo específico:</p>
+    <input class="resposta" type="number" value=" " id="NumSucessos"> < X < 
+    <input class="resposta" type="number" value=" " id="NumSucessos2"><br><br>
+    <input class="resposta" type="button" value="Calcular" id="calc">
+    <input class="resposta" type="button" value="Reiniciar" id="reiniciar"><br><br>
+    <div class="res" id='res'></div><br>
+    <form action="index.html">
+        <input class="resposta" type="submit" value="Voltar para a tela inicial" id="Return" >
+    </form>
+    <script src="binomial.js" type="text/javascript"></script>
+</body>
+</html>

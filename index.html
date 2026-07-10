@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Calculadora BiPo</title>
+</head>
+<body>
+    <h1 class="titulo">
+        Calculadora Estatística de Distribuições
+    </h1>
+    <h2 class="subtitulo">Um projeto universitário por Yan Parazzi e Natan Costa Gomes</h2>
+        <p class="credito"> <a href="creditos.html">Quem somos nós?</a></p>
+        <br>
+    <h2>
+        <p>Calculadoras:</p>
+    </h2>
+    <form action="binomial.html">
+        <input class="bt" type="submit" value="Distribuição Binomial" id="">
+    </form><br>
+    <form action="poisson.html">
+        <input class="bt" type="submit" value="Distribuição de Poisson" id="">
+    </form>
+    <h2>
+        <p>O que é uma distribuição em Estatística?</p>
+    </h2>
+    <h3 class="texto">
+        Nada mais nada menos é a maneira como os valores de uma variável aleatória 
+        estão distribuídos em um determinado conjunto de dados.
+    </h3>
+    <h2>
+        <p>Sobre as distribuições Binomial e de Poisson:</p>
+    </h2>
+    <h3 class="texto">
+        <b> Distribuição Binomial: </b><br><p>
+            A distribuição binomial é um conceito fundamental em estatística 
+            que descreve a probabilidade de um determinado número de "sucessos" 
+            em um número fixo de tentativas independentes, onde cada tentativa 
+            tem apenas dois resultados possíveis (sucesso ou fracasso)<br><br>
+        <b> Distribuição de Poisson: </b><br><p>
+        A distribuição de Poisson, por sua vez, é utilizada para modelar o 
+        número de ocorrências de um evento em um intervalo de tempo ou espaço, 
+        quando essas ocorrências são relativamente raras e independentes.<br><br>
+    </h3>
+    <table class="tabela">
+    <thead>
+        <tr class="tabelaTitulo">
+            <th>Característica</th>
+            <th>Distribuição Binomial</th>
+            <th>Distribuição de Poisson</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="tabelaConteudo">
+            <td>Número de tentativas</td>
+            <td>Fixo</td>
+            <td>Não é fixo (intervalo de tempo ou espaço)</td>
+        </tr>
+        <tr class="tabelaConteudo">
+            <td>Resultados</td>
+            <td>Dois (sucesso ou fracasso)</td>
+            <td>Número de ocorrências (0, 1, 2, ...)</td>
+        </tr>
+        <tr class="tabelaConteudo">
+            <td>Probabilidade de Sucesso</td>
+            <td>Constante em cada tentativa</td>
+            <td>Média de ocorrências em um intervalo</td>
+        </tr>
+    </tbody>
+    </table>
+    <p>Tabela e descrição por Google AI. 3 de Novembro de 2024. 
+    <a href="https://gemini.google.com/">Gemini</a>: 
+    Um modelo de linguagem de grande porte.</p>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

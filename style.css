@@ -1,0 +1,64 @@
+/* index.html */
+.titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.credito {
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.bt {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1%;
+    background-color:aliceblue;
+}
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: italic;
+}
+.tabela {
+    margin: 5%;
+    background-color:white;
+}
+.tabelaTitulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: #333;
+    color: #fff;
+}
+.tabelaConteudo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #ddd;
+}
+/* binomial.html */
+.pergunta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.resposta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.res {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+/* creditos.html */
