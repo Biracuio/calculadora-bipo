@@ -22,6 +22,16 @@ https://biracuio.github.io/calculadora-bipo/
 
 ---
 
+## 📷 Capturas de tela
+
+<img width="1906" height="955" alt="Tela inic" src="https://github.com/user-attachments/assets/d846ccd7-3d60-4595-a380-fa6a6a17ced9" />
+
+<img width="1920" height="956" alt="Tela binomial" src="https://github.com/user-attachments/assets/0a65d294-2c19-4586-99b2-7fde11ca2a5a" />
+
+<img width="1920" height="956" alt="Tela poisson" src="https://github.com/user-attachments/assets/ad0c6ab0-b6bc-43b3-9ffa-fec5790ed27e" />
+
+---
+
 ## ✨ Funcionalidades
 
 - Cálculo da Distribuição Binomial
